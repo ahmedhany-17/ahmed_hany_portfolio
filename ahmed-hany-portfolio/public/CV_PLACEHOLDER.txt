@@ -1,0 +1,12 @@
+Place your CV PDF here.
+
+Rename it to: Ahmed-Hany-CV.pdf
+
+The "Download CV" button links to: /Ahmed-Hany-CV.pdf
+(resolved relative to the public/ folder)
+
+Steps:
+1. Export your CV as PDF
+2. Name it exactly: Ahmed-Hany-CV.pdf
+3. Delete this placeholder file (CV_PLACEHOLDER.txt)
+4. The download button will work automatically

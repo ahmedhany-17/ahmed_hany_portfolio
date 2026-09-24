@@ -1,0 +1,16 @@
+/* App-level layout */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-top: var(--nav-height);
+}
+
+/* Override padding-top for hero since it handles its own */
+main > section:first-child {
+  padding-top: 0;
+}
