@@ -80,8 +80,8 @@ ahmed-hany-portfolio/
 ### Install & Run
 
 ```bash
-git clone https://github.com/ahmedhany-17/ahmed-hany-portfolio.git
-cd ahmed-hany-portfolio
+git clone https://github.com/ahmedhany-17/ahmed_hany_portfolio.git
+cd ahmed_hany_portfolio
 npm install
 npm run dev
 ```
@@ -115,19 +115,23 @@ npm run preview
 
 ## Deployment
 
-### Option 1 — GitHub Pages (Recommended)
+### Option 1 — GitHub Pages with GitHub Actions (Automatic)
 
-1. Install the deploy tool:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-2. Make sure `vite.config.ts` has `base: '/ahmed-hany-portfolio/'`
-3. Deploy:
+This repository includes a GitHub Actions workflow (`.github/workflows/static.yml`) that automatically builds and deploys on every push to `main`:
+1. In your GitHub repository, go to **Settings → Pages**.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Push to `main` — GitHub Actions will automatically build and publish your site.
+4. Your site will be live at: `https://ahmedhany-17.github.io/ahmed_hany_portfolio/`
+
+### Option 2 — Manual Deploy via gh-pages
+
+If you prefer deploying via the `gh-pages` branch:
+1. Run:
    ```bash
    npm run deploy
    ```
-4. Go to your GitHub repo → Settings → Pages → set source to `gh-pages` branch.
-5. Your site will be live at: `https://ahmedhany-17.github.io/ahmed-hany-portfolio/`
+2. Go to your GitHub repo → **Settings → Pages** → set source to **Deploy from a branch** and select `gh-pages` branch.
+3. Your site will be live at: `https://ahmedhany-17.github.io/ahmed_hany_portfolio/`
 
 ### Option 2 — Vercel
 

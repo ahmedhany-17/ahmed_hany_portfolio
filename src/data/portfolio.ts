@@ -10,7 +10,7 @@ export const personal = {
   email: 'ahmedhanyelsayede@gmail.com',
   linkedin: 'https://linkedin.com/in/ahmed-hany-dev',
   github: 'https://github.com/ahmedhany-17',
-  cvPath: '/Ahmed-Hany-CV.pdf',
+  cvPath: `${import.meta.env.BASE_URL}Ahmed-Hany-CV.pdf`,
   summary:
     'I build cross-platform mobile applications and full-stack web solutions with a focus on clean architecture, Firebase, APIs, databases, and practical user experiences.',
   about: [
